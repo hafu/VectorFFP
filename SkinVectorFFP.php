@@ -26,17 +26,17 @@
  * SkinTemplate class for Vector skin
  * @ingroup Skins
  */
-class SkinVector extends SkinTemplate {
-	public $skinname = 'vector';
+class SkinVectorFFP extends SkinTemplate {
+	public $skinname = 'vectorffp';
 	public $stylename = 'VectorFFP';
-	public $template = 'VectorTemplate';
+	public $template = 'VectorFFPTemplate';
 	/**
 	 * @var Config
 	 */
 	private $vectorConfig;
 
 	public function __construct() {
-		$this->vectorConfig = ConfigFactory::getDefaultInstance()->makeConfig( 'vector' );
+		$this->vectorConfig = ConfigFactory::getDefaultInstance()->makeConfig( 'vectorffp' );
 	}
 
 	/**
@@ -46,9 +46,9 @@ class SkinVector extends SkinTemplate {
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
 
-		if ( $this->vectorConfig->get( 'VectorResponsive' ) ) {
+		if ( $this->vectorConfig->get( 'VectorFFPResponsive' ) ) {
 			$out->addMeta( 'viewport', 'width=device-width, initial-scale=1' );
-			$out->addModuleStyles( 'skins.vector.styles.responsive' );
+			$out->addModuleStyles( 'skins.vectorffp.styles.responsive' );
 		}
 
 		// Append CSS which includes IE only behavior fixes for hover support -
@@ -61,7 +61,7 @@ class SkinVector extends SkinTemplate {
 				"/{$this->stylename}/csshover{$min}.htc\")}</style><![endif]-->"
 		);
 
-		$out->addModules( array( 'skins.vector.js' ) );
+		$out->addModules( array( 'skins.vectorffp.js' ) );
 	}
 
 	/**
@@ -71,8 +71,8 @@ class SkinVector extends SkinTemplate {
 	function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
-		$styles = array( 'mediawiki.skinning.interface', 'skins.vector.styles' );
-		Hooks::run( 'SkinVectorStyleModules', array( $this, &$styles ) );
+		$styles = array( 'mediawiki.skinning.interface', 'skins.vectorffp.styles' );
+		Hooks::run( 'SkinVectorFFPStyleModules', array( $this, &$styles ) );
 		$out->addModuleStyles( $styles );
 	}
 

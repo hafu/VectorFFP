@@ -11,10 +11,10 @@
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ConfigRegistry": {
-		"vector": "GlobalVarConfig::newInstance"
+		"vectorffp": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"vector": "VectorFFP"
+		"vectorffp": "VectorFFP"
 	},
 	"MessagesDirs": {
 		"VectorFFP": [
@@ -22,12 +22,12 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SkinVector": "SkinVector.php",
-		"VectorTemplate": "VectorTemplate.php"
+		"SkinVectorFFP": "SkinVectorFFP.php",
+		"VectorFFPTemplate": "VectorFFPTemplate.php"
 	},
-	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
+	"@note": "When modifying skins.vectorffp.styles definition, make sure the installer still works",
 	"ResourceModules": {
-		"skins.vector.styles": {
+		"skins.vectorffp.styles": {
 			"position": "top",
 			"styles": {
 				"screen.less": {
@@ -38,7 +38,7 @@
 				}
 			}
 		},
-		"skins.vector.styles.responsive": {
+		"skins.vectorffp.styles.responsive": {
 			"position": "top",
 			"styles": {
 				"responsive.less": {
@@ -46,10 +46,10 @@
 				}
 			}
 		},
-		"skins.vector.js": {
+		"skins.vectorffp.js": {
 			"scripts": [
 				"collapsibleTabs.js",
-				"vector.js"
+				"vectorffp.js"
 			],
 			"position": "top",
 			"dependencies": [
@@ -63,7 +63,7 @@
 		"remoteSkinPath": "VectorFFP"
 	},
 	"ResourceModuleSkinStyles": {
-		"vector": {
+		"vectorffp": {
 			"jquery.tipsy": "skinStyles/jquery.tipsy.less",
 			"jquery.ui.core": [
 				"skinStyles/jquery.ui/jquery.ui.core.css",
@@ -90,9 +90,9 @@
 		}
 	},
 	"config": {
-		"VectorUseSimpleSearch": true,
-		"VectorUseIconWatch": true,
-		"VectorResponsive": false
+		"VectorFFPUseSimpleSearch": true,
+		"VectorFFPUseIconWatch": true,
+		"VectorFFPResponsive": false
 	},
 	"manifest_version": 1
 }

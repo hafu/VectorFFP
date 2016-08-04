@@ -26,7 +26,7 @@
  * QuickTemplate class for Vector skin
  * @ingroup Skins
  */
-class VectorTemplate extends BaseTemplate {
+class VectorFFPTemplate extends BaseTemplate {
 	/* Functions */
 
 	/**
@@ -36,7 +36,7 @@ class VectorTemplate extends BaseTemplate {
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
 
-		if ( $this->config->get( 'VectorUseIconWatch' ) ) {
+		if ( $this->config->get( 'VectorFFPUseIconWatch' ) ) {
 			$mode = $this->getSkin()->getUser()->isWatched( $this->getSkin()->getRelevantTitle() )
 				? 'unwatch'
 				: 'watch';
@@ -516,7 +516,7 @@ class VectorTemplate extends BaseTemplate {
 						</h3>
 
 						<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-							<div<?php echo $this->config->get( 'VectorUseSimpleSearch' ) ? ' id="simpleSearch"' : '' ?>>
+							<div<?php echo $this->config->get( 'VectorFFPUseSimpleSearch' ) ? ' id="simpleSearch"' : '' ?>>
 							<?php
 							echo $this->makeSearchInput( array( 'id' => 'searchInput' ) );
 							echo Html::hidden( 'title', $this->get( 'searchtitle' ) );
