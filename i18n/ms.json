@@ -6,7 +6,7 @@
 			"Pizza1016"
 		]
 	},
-	"skinname-vector": "Vector",
+	"skinname-vector": "VectorFFP",
 	"vector-skin-desc": "Versi MonoBook yang moden dengan rupa yang segar dan banyak pembaikan kepada kegunaan.",
 	"vector.css": "/* CSS yang terletak di sini akan mempengaruhi pengguna kulit Vector */",
 	"vector.js": "/ * Sebarang JavaScript di sini akan dimuatkan untuk pengguna-pengguna yang menggunakan kulit Vector * /",

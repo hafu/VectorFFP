@@ -8,7 +8,7 @@
 			"Lokal Profil"
 		]
 	},
-	"skinname-vector": "Vector",
+	"skinname-vector": "VectorFFP",
 	"vector-skin-desc": "Modern version av MonoBook med ett nytt utseende och flera användarvänlighetsförbättringar",
 	"vector.css": "/* CSS som skrivs här kommer att påverka alla användare av utseendet Vector */",
 	"vector.js": "/* JavaScript här kommer att laddas för dem som använder utseendet Vector */",

@@ -9,7 +9,7 @@
 			"Od1n"
 		]
 	},
-	"skinname-vector": "Vector",
+	"skinname-vector": "VectorFFP",
 	"vector-skin-desc": "Version moderne de MonoBook avec un aspect rajeuni et beaucoup d’améliorations ergonomiques",
 	"vector.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Vector. */",
 	"vector.js": "/* Tout code JavaScript placé ici sera chargé pour les utilisateurs de l’habillage Vector */",

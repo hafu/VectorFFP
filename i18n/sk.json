@@ -8,7 +8,7 @@
 			"Mikulas1"
 		]
 	},
-	"skinname-vector": "Vector",
+	"skinname-vector": "VectorFFP",
 	"vector-skin-desc": "Moderná verzia MonoBooku so sviežim vzhľadom a vylepšenou použiteľnosťou",
 	"vector.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Vector */",
 	"vector.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Vector */",

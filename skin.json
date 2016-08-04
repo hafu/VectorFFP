@@ -1,5 +1,5 @@
 {
-	"name": "Vector",
+	"name": "VectorFFP",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
@@ -14,10 +14,10 @@
 		"vector": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"vector": "Vector"
+		"vector": "VectorFFP"
 	},
 	"MessagesDirs": {
-		"Vector": [
+		"VectorFFP": [
 			"i18n"
 		]
 	},
@@ -60,7 +60,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Vector"
+		"remoteSkinPath": "VectorFFP"
 	},
 	"ResourceModuleSkinStyles": {
 		"vector": {

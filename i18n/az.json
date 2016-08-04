@@ -10,7 +10,7 @@
 			"Wertuose"
 		]
 	},
-	"skinname-vector": "Vector",
+	"skinname-vector": "VectorFFP",
 	"vector.css": "/* Burada yerləşən CSS Vector istifadəçilərinə tətbiq olunur */",
 	"vector.js": "/* Burada Vector skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
 	"vector-action-addsection": "Mövzu əlavə et",

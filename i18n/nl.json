@@ -9,7 +9,7 @@
 			"Sjoerddebruin"
 		]
 	},
-	"skinname-vector": "Vector",
+	"skinname-vector": "VectorFFP",
 	"vector-skin-desc": "Moderne versie van MonoBook met een fris uiterlijk en verbeteringen op het gebied van gebruiksvriendelijkheid",
 	"vector.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op het uiterlijk Vector */",
 	"vector.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die het uiterlijk Vector gebruiken */",

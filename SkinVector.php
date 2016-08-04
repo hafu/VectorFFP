@@ -28,7 +28,7 @@
  */
 class SkinVector extends SkinTemplate {
 	public $skinname = 'vector';
-	public $stylename = 'Vector';
+	public $stylename = 'VectorFFP';
 	public $template = 'VectorTemplate';
 	/**
 	 * @var Config
