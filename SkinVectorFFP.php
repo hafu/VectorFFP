@@ -48,7 +48,7 @@ class SkinVectorFFP extends SkinTemplate {
 
 		if ( $this->vectorConfig->get( 'VectorFFPResponsive' ) ) {
 			$out->addMeta( 'viewport', 'width=device-width, initial-scale=1' );
-			$out->addModuleStyles( 'skins.vectorffp.styles.responsive' );
+			$out->addModuleStyles( 'skins.vector.styles.responsive' );
 		}
 
 		// Append CSS which includes IE only behavior fixes for hover support -
@@ -71,7 +71,7 @@ class SkinVectorFFP extends SkinTemplate {
 	function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
-		$styles = array( 'mediawiki.skinning.interface', 'skins.vectorffp.styles' );
+		$styles = array( 'mediawiki.skinning.interface', 'skins.vector.styles' );
 		Hooks::run( 'SkinVectorFFPStyleModules', array( $this, &$styles ) );
 		$out->addModuleStyles( $styles );
 	}
