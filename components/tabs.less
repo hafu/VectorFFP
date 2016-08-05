@@ -42,13 +42,17 @@ div.vectorTabs {
 			height: 100%;
 			margin: 0;
 			padding: 0;
-			background-color: @content-border-color;
-/**
-			.background-image('images/tab-normal-fade.png');
+			background-color: @menu-background-color;
+			border: 1px solid @content-border-color;
+			border-left: 0px;
+			border-bottom: 0px;
+			.background-image('images/tab-inactive-px.png');
 			background-position: bottom left;
 			background-repeat: repeat-x;
-*/
 			white-space: nowrap;
+		}
+		li:first-child {
+			border-left: 1px solid @content-border-color;
 		}
 
 		/* IGNORED BY IE6 which doesn't support child selector */
@@ -68,7 +72,9 @@ div.vectorTabs {
 		&.selected {
 			background-color: @body-background-color;
 			border: 1px solid @content-border-color;
+			border-left: 0px;
 			border-bottom: 0px;
+			background-image: none;
 /**
 			.background-image('images/tab-current-fade.png');
 */

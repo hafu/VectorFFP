@@ -71,7 +71,7 @@ class SkinVectorFFP extends SkinTemplate {
 	function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
-		$styles = array( 'skins.vectorffp.styles' );
+		$styles = array( 'mediawiki.skinning.interface', 'skins.vectorffp.styles' );
 		Hooks::run( 'SkinVectorFFPStyleModules', array( $this, &$styles ) );
 		$out->addModuleStyles( $styles );
 	}
